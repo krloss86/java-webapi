@@ -21,5 +21,6 @@
     <module>dao</module>
     <module>services</module>
     <module>webapp</module>
+    <module>ws-rest-server</module>
   </modules>
 </project>
