@@ -22,5 +22,6 @@
     <module>services</module>
     <module>webapp</module>
     <module>ws-rest-server</module>
+    <module>app-ws-meli-client</module>
   </modules>
 </project>
