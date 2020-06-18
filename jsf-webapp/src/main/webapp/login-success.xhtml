@@ -1,0 +1,21 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core">
+ 
+     <h:head>
+ 		<title>LOGIN-SUCCESS.XHTML</title>
+     </h:head>
+ 
+     <h:body>
+ 		
+ 		<!--rendered="#{usuarioBean.logueado()}"-->		
+		<h:form>
+        	<h:messages id="msgs"/>
+        	<h:outputLabel > </h:outputLabel>
+			<h:outputLabel value="#{usuario.username}"></h:outputLabel>
+			<h:outputLabel value="#{usuario.roles}"></h:outputLabel>			
+        	<h:commandButton action="login" value="Volver"></h:commandButton>
+		</h:form>
+ 
+     </h:body>
+</html>
