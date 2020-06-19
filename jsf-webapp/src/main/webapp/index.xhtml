@@ -1,5 +1,23 @@
-<html>
-<body>
-<h2>Clase 5 - jsf</h2>
-</body>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	<h:head>
+		<title>LOGIN-SUCCESS.XHTML</title>
+		<h:outputScript library="javax.faces" name="jsf.js" target="body" />
+		<h:outputStylesheet library="webjars" name="/bootstrap/4.3.1/css/bootstrap.min-jsf.css" />
+	</h:head>
+	<h:body>
+		<div class="container">
+			<div class="jumbotron">
+			  <h1 class="display-4">Bienvenido!</h1>
+			  <p class="lead">EudacionIt - Curso Java Web Api</p>
+			  <hr class="my-4"/>
+			  <p>JSF + CDI</p>
+			  <h:link styleClass="btn btn-primary btn-lg" outcome="login.xhtml?faces-redirect=true" value="Ir A Login" />
+			</div>
+		</div>
+	</h:body>
 </html>

@@ -33,11 +33,15 @@
 		<exception-type>javax.faces.application.ViewExpiredException</exception-type>
 		<location>/notLogged.xhtml</location>
 	</error-page>
+	<error-page>
+		<exception-type>java.lang.NullPointerException</exception-type>
+		<location>/notLogged.xhtml</location>
+	</error-page>
 	<servlet-mapping>
 		<servlet-name>Faces Servlet</servlet-name>
 		<url-pattern>*.xhtml</url-pattern>
 	</servlet-mapping>
 	<session-config>
-        <session-timeout>1</session-timeout>
+        <session-timeout>5</session-timeout>
     </session-config>
 </web-app>
