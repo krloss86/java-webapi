@@ -44,4 +44,8 @@
 	<session-config>
         <session-timeout>5</session-timeout>
     </session-config>
+    <context-param>
+		<param-name>primefaces.THEME</param-name>
+		<param-value>humanity</param-value><!-- humanity -->
+    </context-param>
 </web-app>

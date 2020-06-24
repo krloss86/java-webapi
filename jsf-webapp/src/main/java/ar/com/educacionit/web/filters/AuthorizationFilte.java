@@ -54,6 +54,7 @@ public class AuthorizationFilte implements Filter {
 				contextPath+ "/index.xhtml",
 				contextPath+"/login.xhtml", 
 				contextPath+"/notLogged.xhtml", 
+				contextPath+"/test.xhtml",
 				req.getContextPath() + "/" 
 		);
 

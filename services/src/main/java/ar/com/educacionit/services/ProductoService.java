@@ -4,6 +4,7 @@ package ar.com.educacionit.services;
 import java.util.List;
 
 import ar.com.eduacionit.app.domain.Producto;
+import ar.com.eduacionit.app.domain.TipoProducto;
 import ar.com.educacionit.services.exceptions.ServiceException;
 
 public interface ProductoService {
@@ -17,4 +18,6 @@ public interface ProductoService {
 	public Producto updateProducto(Producto producto) throws ServiceException;
 
 	public Producto eliminarProducto(String codigoProducto) throws ServiceException;
+	
+	public List<TipoProducto> findTipoProductos() throws ServiceException;
 }
