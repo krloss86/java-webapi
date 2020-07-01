@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.educacionit.com.ar/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:getProductoByCodigo>
+         <!--Optional:-->
+         <codigo>a500</codigo>
+      </ws:getProductoByCodigo>
+   </soapenv:Body>
+</soapenv:Envelope>

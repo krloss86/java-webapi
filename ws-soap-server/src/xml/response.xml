@@ -1,0 +1,16 @@
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Body>
+      <ns2:getProductoByCodigoResponse xmlns:ns2="http://ws.educacionit.com.ar/">
+         <return>
+            <codigo>a500</codigo>
+            <descripcion>lg k10 editado</descripcion>
+            <id>215</id>
+            <precio>7500.0</precio>
+            <tipoProducto>
+               <descripcion>Electrodomestico</descripcion>
+               <id>1</id>
+            </tipoProducto>
+         </return>
+      </ns2:getProductoByCodigoResponse>
+   </S:Body>
+</S:Envelope>

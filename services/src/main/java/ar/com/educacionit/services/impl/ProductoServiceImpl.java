@@ -69,7 +69,7 @@ public class ProductoServiceImpl implements ProductoService {
 			return this.productoDao.deleteProducto(codigoProducto);
 		} catch (GenericExeption e) {
 			e.printStackTrace();
-			throw new ServiceException("Error inesperado creando el producto ["+e.getMessage()+"]", e);
+			throw new ServiceException("Error inesperado eliminarProducto el producto ["+e.getMessage()+"]", e);
 		}
 	}
 	

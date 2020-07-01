@@ -24,5 +24,8 @@
 <!--     <module>ws-rest-server</module> -->
 <!--     <module>app-ws-meli-client</module> -->
     <module>jsf-webapp</module>
+    <module>ws-soap-server</module>
+    <module>ws-soap-server-webapp</module>
+    <module>ws-soap-client</module>
   </modules>
 </project>
