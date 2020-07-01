@@ -27,5 +27,6 @@
     <module>ws-soap-server</module>
     <module>ws-soap-server-webapp</module>
     <module>ws-soap-client</module>
+    <module>ws-soap-client-webapp</module>
   </modules>
 </project>
