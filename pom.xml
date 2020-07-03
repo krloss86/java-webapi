@@ -28,5 +28,6 @@
     <module>ws-soap-server-webapp</module>
     <module>ws-soap-client</module>
     <module>ws-soap-client-webapp</module>
+    <module>spring-mvc</module>
   </modules>
 </project>
